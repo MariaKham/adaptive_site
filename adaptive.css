@@ -39,10 +39,6 @@
   }
 
   body {
-    overflow-y: auto;
-    overflow-x: hidden;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
     font-family: TT Lakes, Arial, Helvetica, sans-serif;
     font-size: 14px;
     background-color: #F8F8F8;
@@ -52,10 +48,16 @@
     min-width: 320px;  
     width: 100%;
   } 
-  body::-webkit-scrollbar {
+
+  .main-info__list {
+    overflow: auto;
+    scrollbar-width: none;
+  }
+  .main-info__list::-webkit-scrollbar {
     width: 0;
     height: 0;
   }
+
 
   .header {
     height: 88px;
@@ -333,6 +335,4 @@
 }
  }
 
- .main-info__nav {
-  overflow-x: hidden;
- }
+ 
