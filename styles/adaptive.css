@@ -30,6 +30,7 @@
   font-weight: 500;
   font-style: normal;
 }
+
   html {
     box-sizing: border-box;
   }
@@ -200,7 +201,7 @@
  }
 
  .main-info__title::before {
-  content: url(highlight.svg);
+  content: url(../images/highlight.svg);
   margin-left: 0;
   margin-right: 12px;
   vertical-align: middle;
@@ -316,6 +317,7 @@
 
 .article-picture {
     min-height: 176px; 
+    min-width: 320px;
     width: 100%;
     border-radius: 6px;
 }
