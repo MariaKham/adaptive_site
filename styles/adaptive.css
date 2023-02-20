@@ -119,6 +119,10 @@ a:hover, button:hover {
     margin: 0 20px;
   }
 
+.header__btn-repair {
+    margin-right: 16px;
+  } 
+
   .header__burger-logo {
     display: flex;
     align-items: center;
@@ -167,7 +171,6 @@ a:hover, button:hover {
 
 .header__aside-menu {
     display: flex;
-    min-width: 96px;
     justify-content: space-between;
 }
 
@@ -218,6 +221,10 @@ a:hover, button:hover {
   .main-info__title {
     margin-top: 0;
 }
+ }
+
+ .main-info__nav {
+  margin-bottom: 32px;
  }
 
  .main-info__list {
@@ -280,7 +287,6 @@ a:hover, button:hover {
         display: flex;
         min-width: 768;
         padding: 0 24px;
-        margin-top: 32px;
         align-items: flex-start;
     }
     .article__text {
@@ -318,8 +324,9 @@ a:hover, button:hover {
 }
 
 .article-picture {
-    height: 176px; 
-    width: 320px;
+    min-height: 176px; 
+    min-width: 320px;
+    margin: auto;
     border-radius: 6px;
 }
 @media screen and (min-width: 768px) {
