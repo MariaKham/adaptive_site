@@ -108,7 +108,9 @@
     border: none;
     padding: 0;
     }
-
+a:hover, button:hover {
+    opacity: 0.7;
+}
   .header__divider1, .header__divider2 {
     background-color: #EAEAEA;
     border-radius: 1px;
