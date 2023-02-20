@@ -316,9 +316,8 @@
 }
 
 .article-picture {
-    min-height: 176px; 
-    min-width: 320px;
-    width: 100%;
+    height: 176px; 
+    width: 320px;
     border-radius: 6px;
 }
 @media screen and (min-width: 768px) {
