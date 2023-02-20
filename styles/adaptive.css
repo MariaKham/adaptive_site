@@ -326,7 +326,7 @@ a:hover, button:hover {
 .article-picture {
     min-height: 176px; 
     min-width: 320px;
-    margin: auto;
+    width: 100%;
     border-radius: 6px;
 }
 @media screen and (min-width: 768px) {
