@@ -206,7 +206,7 @@ a:hover, button:hover {
  }
 
  .main-info__title::before {
-  content: url(..images/highlight.svg);
+  content: url(../images/highlight.svg);
   margin-left: 0;
   margin-right: 12px;
   vertical-align: middle;
