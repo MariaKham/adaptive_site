@@ -1,2 +1,2 @@
-# MariaKham.github.io
-mobile_first
+
+https://mariakham.github.io/adaptive.html
