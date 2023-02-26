@@ -28,14 +28,10 @@ html {
   }
 body {
     margin: 0;
-    position: absolute;
-    height: 100%;
 }
 /* контейнер с выпадающим содержимым */
 .block-menu {
     position: relative;
-    top: 0;
-    left: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -46,7 +42,8 @@ body {
     line-height: 24px;
     margin: 0;
     padding-top: 20px;
-    height: 100%;
+    height: 100vh;
+    min-height: 100%;
     box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
     width: 320px;
 }
