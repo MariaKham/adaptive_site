@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
+</head>
+<body>
+    
+    <div class="brands">
+        <h2 class="brands__title text">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h2>
+        <div class="brands__container" data-mobile="false">
+            <div class="brands__wrapper">
+                <div class="brands__card"><img class="brands__img" src="images/card1.svg" alt="lenovo"></div>
+                <div class="brands__card"><img class="brands__img" src="images/card2.svg" alt="apple"></div>
+                <div class="brands__card"><img class="brands__img" src="images/card3.svg" alt="sonic"></div>
+                <div class="brands__card"><img class="brands__img" src="images/card4.svg" alt="bosch"></div>
+                <div class="brands__card"><img class="brands__img" src="images/card5.svg" alt="hp"></div>
+                <div class="brands__card"><img class="brands__img" src="images/card6.svg" alt="acer"></div>
+                <div class="brands__card brands__card--visually-hidden"><img class="brands__img" src="images/card7.svg" alt="samsung"></div>
+                <div class="brands__card brands__card--visually-hidden"><img class="brands__img" src="images/card8.svg" alt="sony"></div>
+                <div class="brands__card brands__card--visually-hidden"><img class="brands__img" src="images/card1.svg" alt="lenovo"></div>
+                <div class="brands__card brands__card--visually-hidden"><img class="brands__img" src="images/card2.svg" alt="apple"></div>
+                <div class="brands__card brands__card--visually-hidden"><img class="brands__img" src="images/card3.svg" alt="sonic"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <button class="brands__show-btn text" type="button">Показать все</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="scripts/slider.js"></script>
+</body>
+</html>
